@@ -38,7 +38,7 @@ function Project() {
   };
 
   React.useEffect(() => {
-    fetch(`http://localhost:3000/projects/${handle}`).then(setProj);
+    fetch(`https://localhost:3000/projects/${handle}`).then(setProj);
     console.log(item);
   }, [handle]);
   // console.log(item);
